@@ -1444,6 +1444,10 @@ input:checked + .toggle-bg {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -2356,6 +2360,10 @@ input:checked + .toggle-bg {
   .md\:px-\[5px\] {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:text-3xl {
