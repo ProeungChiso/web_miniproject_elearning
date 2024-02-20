@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <script src="https://kit.fontawesome.com/39db139805.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body class="font-roboto">
+    <header>
+        <nav class="bg-custom-blue fixed w-screen z-20 top-0 start-0 border-b border-gray-200">
+            <div
+                class="max-w-screen-xl flex flex-wrap items-center md:justify-between justify-center gap-3 mx-auto py-4 px-2 md:px-4">
+                <a href="../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="../imgs/other/logo.png" alt="">
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-2">
+                    <button type="button"
+                        class="text-custom-blue bg-white font-medium rounded-lg text-sm px-4 py-2 text-center w-[135px] h-[40px]">
+                        <i class="fa-solid fa-user-plus me-2"></i>Enroll
+                    </button>
+                    <button type="button"
+                        class="text-white font-medium rounded-lg text-sm px-4 py-2 text-center border-2 border-white w-[103.5px] h-[41px]">
+                        <i class="fa-solid fa-user me-2"></i>Signin
+                    </button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-custom-blue md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-custom-blue">
+                        <li>
+                            <a href="../index.html" class="block py-2 px-3 text-white rounded md:text-white md:p-0 
+                                aria-current=" page">Home</a>
+                        </li>
+                        <li>
+                            <a href="./courses.html" class="block py-2 px-3 text-white rounded md:p-0">
+                                Course
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./news.html" class="block py-2 px-3 text-white rounded md:p-0">
+                                News
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="block py-2 px-3 text-white rounded md:p-0">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="newsContents">
+            <div class="newsTitle max-w-screen-xl mx-auto mt-[117px] md:mt-[73px] px-3 py-3 lg:px-[100px] lg:py-[40px]">
+                <h2 class="max-w-screen-xl text-custom-blue mb-[20px] text-2xl font-extrabold md:text-3xl uppercase text-center lg:text-left">
+                    useful contents
+                </h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-screen-xl mx-auto p-3 md:p-3 gap-y-3 gqp-x-3 md:gap-y-[10px] md:gap-x-[10px] lg:gap-y-[20px] lg:gap-x-[10px]">
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news1.png" alt="news1" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    what's cybersecurity?
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Cybersecurity is...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news2.webp" alt="news2" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    case for software criticism 
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Software may be the defining...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news3.jpg" alt="news3" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    rest api & restful api
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Rest API is...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news4.png" alt="news4" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    what's web 3.0?
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Web 3.0 is...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news5.webp" alt="news5" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    frontend & backend
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                The difference between...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news6.jpg" alt="news6" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    what's ai?
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Artificial intelligence is...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news7.png" alt="news7" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    what's docker?
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Docker is...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[150px] w-full object-cover" src="../imgs/news/news8.jpg" alt="news8" />
+                        </a>
+                        <div class="p-[30px]">
+                            <a href="#">
+                                <h5 class="mb-2 text-[14px] font-bold text-gray-900 uppercase">
+                                    become a programmer
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Are you a tech enthusiast who... 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-custom-blue">
+        <div class="max-w-screen-xl mx-auto px-5 md:px-[100px] mt-[40px]">
+            <div class="grid grid-cols-1 py-6 md:grid-cols-4 ">
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase">
+                        Contact
+                    </h2>
+                    <ul class=" font-medium">
+                        <li class="mb-4">
+                            <a href="#" class=" hover:underline text-white">
+                                Call free: +855967920804
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">
+                                Email: mrr.chiso@gmail.com
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">
+                                <img src="../imgs/other/logo.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase ">
+                        Develop tools
+                    </h2>
+                    <ul class=" font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">HTML & CSS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">Tailwindcss</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase">
+                        Quick links
+                    </h2>
+                    <ul class=" font-medium">
+                        <li class="mb-4">
+                            <a href="./courses.html" class="hover:underline text-white">Courses</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./news.html" class="hover:underline text-white">News</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./about.html" class="hover:underline text-white">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase">
+                        Teaching
+                    </h2>
+                    <ul class=" font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">Become a teacher</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">How to guide</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="py-6 bg-transparent flex items-center justify-center">
+                <span class="text-sm  text-white">
+                    Copyright © 2024 Chiso-DevOps
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>

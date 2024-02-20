@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <script src="https://kit.fontawesome.com/39db139805.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body class="font-roboto">
+    <header>
+        <nav class="bg-custom-blue fixed w-screen z-20 top-0 start-0 border-b border-gray-200">
+            <div
+                class="max-w-screen-xl flex flex-wrap items-center md:justify-between justify-center gap-3 mx-auto py-4 px-2 md:px-4">
+                <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./imgs/other/logo.png" alt="">
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-2">
+                    <button type="button"
+                        class="text-custom-blue bg-white font-medium rounded-lg text-sm px-4 py-2 text-center w-[135px] h-[40px]">
+                        <i class="fa-solid fa-user-plus me-2"></i>Enroll
+                    </button>
+                    <button type="button"
+                        class="text-white font-medium rounded-lg text-sm px-4 py-2 text-center border-2 border-white w-[103.5px] h-[41px]">
+                        <i class="fa-solid fa-user me-2"></i>Signin
+                    </button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-custom-blue md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-custom-blue">
+                        <li>
+                            <a href="./index.html" class="block py-2 px-3 text-white rounded md:text-white md:p-0 
+                                aria-current=" page">Home</a>
+                        </li>
+                        <li>
+                            <a href="./html/courses.html" class="block py-2 px-3 text-white rounded md:p-0">
+                                Course
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./html/news.html" class="block py-2 px-3 text-white rounded md:p-0">
+                                News
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./html/about.html" class="block py-2 px-3 text-white rounded md:p-0">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="mt-[117px] md:mt-[73px]">
+            <div class="grid mx-auto grid-cols-1 w-full h-[500px] bg-cover bg-center bg-no-repeat"
+                style="background-image: url(./imgs/other/hero-image.png);">
+                <div class="max-w-screen-xl flex flex-col justify-center align-middle mx-auto uppercase">
+                    <h1 class="mb-4 text-2xl font-extrabold text-white tracking-tight leading-none md:text-5xl text-center">
+                        Welcome to <span class="text-red-700">e</span>-stad</h1>
+                    <p class="font-light text-white md:text-lg text-center text-wrap px-4 md:px-0">
+                        "Unlock the code to success with our e-learning platform.<br>
+                        Learn programming at your own pace,<br>
+                        on your own terms. Empower yourself with the skills of tomorrow, today."
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="popularCourses h-auto mb-[50px]">
+            <div class="title max-w-screen-xl uppercase mx-auto py-[50px]">
+                <h4 class="max-w-screen-xl mb-[20px] text-custom-blue text-md font-bold md:text-lg text-center">start learning</h4>
+                <h2 class="max-w-screen-xl mb-[20px] text-custom-blue text-2xl font-extrabold md:text-3xl text-center">popular courses
+                </h2>
+            </div>
+            <div
+                class="cardsPopularCourse max-w-screen-xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[20px] place-items-center px-5 lg:px-[175px] md:px[50px]">
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="./imgs/other/cpp.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                                C++ Programming
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">
+                            Intructor by teacher
+                        </p>
+                        <div class="rate text-yellow-300">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span class="font-bold">- 800 peoples</span>
+                        </div>
+                        <div class="flex justify-between align-middle">
+                            <p class="mb-3 font-normal text-gray-600"><i class="fa-solid fa-clock me-2"></i>50 hours</p>
+                            <div class="paid text-green-600 font-bold">Free</div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="./imgs/other/spring.webp" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                Spring Boot
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            Intructor by teacher
+                        </p>
+                        <div class="rate text-yellow-300">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span class="font-bold">- 101 peoples</span>
+                        </div>
+                        <div class="flex justify-between align-middle">
+                            <p class="mb-3 font-normal text-gray-600"><i class="fa-solid fa-clock me-2"></i>120 hours</p>
+                            <div class="paid text-rose-600 font-bold">$99.98</div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow col-span-1 lg:col-span-1 md:col-span-2">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="./imgs/other/python.webp" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                                Basic Python
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">
+                            Intructor by teacher
+                        </p>
+                        <div class="rate text-yellow-300">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span class="font-bold">- 990 peoples</span>
+                        </div>
+                        <div class="flex justify-between align-middle">
+                            <p class="mb-3 font-normal text-gray-600"><i class="fa-solid fa-clock me-2"></i>60 hours</p>
+                            <div class="paid text-green-600 font-bold">Free</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="max-w-screen-xl mx-auto px-5 lg:px-[175px] md:px-[50px] flex justify-end lg:justify-end md:justify-center">
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mt-2">
+                    Explore more courses
+                </button>
+            </div>
+        </section>
+        <section class="bg-white learnAndGrow">
+            <div class="grid max-w-screen-xl px-5 lg:px-[180px] py-8 mx-auto lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <h2 class="max-w-screen-xl text-custom-blue mb-[10px] text-2xl font-extrabold md:text-3xl uppercase">Learn and Grow
+                    </h2>
+                    <p class="max-w-2xl mb-[10px] font-medium text-gray-500 lg:mb-8 md:text-lg lg:text-xl text-left">
+                        Your <span class="text-red-700">E</span><span class="text-custom-blue">-STAD</span> learning experience is grounded in cutting
+                        edge cognitive science. With more than two dozen distinct
+                        learning features to help you achieve your goals, our
+                        approach follows three key principles:
+                    </p>
+                    <p class="max-w-2xl mb-[10px] font-bold text-custom-blue lg:mb-8 md:text-lg lg:text-xl ">
+                        Experience - Practice - Apply
+                    </p>
+                </div>
+                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex lg:justify-end">
+                    <img src="./imgs/other/learning and grow.png" alt="mockup">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-custom-blue">
+        <div class="max-w-screen-xl mx-auto px-5 md:px-[100px]">
+            <div class="grid grid-cols-1 py-6 md:grid-cols-4 ">
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase">
+                        Contact
+                    </h2>
+                    <ul class="font-medium">
+                        <li class="mb-4">
+                            <a href="#" class=" hover:underline text-white">
+                                Call free: +855967920804
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">
+                                Email: mrr.chiso@gmail.com
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">
+                                <img src="./imgs/other/logo.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase ">
+                        Develop tools
+                    </h2>
+                    <ul class="font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">HTML & CSS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">Tailwindcss</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase">
+                        Quick links
+                    </h2>
+                    <ul class=" font-medium">
+                        <li class="mb-4">
+                            <a href="./html/courses.html" class="hover:underline text-white">Courses</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./html/news.html" class="hover:underline text-white">News</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./html/about.html" class="hover:underline text-white">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-lg font-semibold text-white uppercase">
+                        Teaching
+                    </h2>
+                    <ul class="font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">Become a teacher</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">How to guide</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline text-white">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="py-6 bg-transparent flex items-center justify-center">
+                <span class="text-sm  text-white">
+                    Copyright © 2024 Chiso-DevOps
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
